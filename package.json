@@ -1,0 +1,30 @@
+{
+  "name": "demande-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "sonar": "sonar-scanner -X"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.3",
+    "path": "^0.12.7",
+    "sequelize": "^6.37.2",
+    "socket.io": "^4.7.5",
+    "sonar-scanner": "^3.1.0",
+    "sonarqube": "^0.0.1",
+    "supertest": "^7.0.0"
+  }
+}
